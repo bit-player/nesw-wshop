@@ -19,7 +19,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 #specific
-THEME = './pelican-bootstrap3-modified'
+THEME = '.support/themes/pelican-bootstrap3-modified'
 BOOTSTRAP_THEME = 'flatly'
 TWITTER_USERNAME="Author"
 
@@ -71,14 +71,14 @@ INTERLINKS = {
     'wikipedia_es': 'http://es.wikipedia.org/wiki/',
     'ddg': 'https://duckduckgo.com/?q='
 }
-PLUGIN_PATH = './pelican-plugins-activated'
+PLUGIN_PATH = '.support/plugins'
 PLUGINS = ['interlinks', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.notebook', 'liquid_tags.include_code',
            'liquid_tags.include_md']
 
-EXTRA_HEADER = open('./notebook_header.html').read().decode('utf-8')
+EXTRA_HEADER = open('./support/notebook_header.html').read().decode('utf-8')
 
-STATIC_PATHS=['static', 'images', 'code', 'notebooks', 'files']
+STATIC_PATHS=['static', 'code', 'notebooks', 'files']
 
 #INDEX_SAVE_AS='index.html'
 ARTICLE_URL = 'blog/{slug}.html'
