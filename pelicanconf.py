@@ -19,7 +19,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 #specific
-THEME = 'support/themes/pelican-bootstrap3-modified'
+THEME = 'support/themes/modpbs3'
 BOOTSTRAP_THEME = 'flatly'
 TWITTER_USERNAME="Author"
 
