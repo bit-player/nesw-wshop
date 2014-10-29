@@ -7,4 +7,6 @@ A video of this lecture is available [here](http://cm.dce.harvard.edu/2014/02/24
 
 You can download this lecture [here]({filename}/../../notebooks/Lecture1.ipynb).
 
+{% youtube 5Dnw46eC-0o [width] [height] %}
+
 {% notebook Lecture1.ipynb %}

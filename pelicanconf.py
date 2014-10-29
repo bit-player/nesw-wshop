@@ -19,7 +19,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 #specific
-THEME = '.support/themes/pelican-bootstrap3-modified'
+THEME = 'support/themes/pelican-bootstrap3-modified'
 BOOTSTRAP_THEME = 'flatly'
 TWITTER_USERNAME="Author"
 
@@ -36,7 +36,7 @@ OTHERLINKS = (('Numpy', 'http://docs.scipy.org/doc/numpy/reference/'),
           ('IACS', 'http://iacs.seas.harvard.edu'),)
 
 # Social widget
-SOCIAL = True
+#SOCIAL = True
 
 DEFAULT_PAGINATION = 10
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra']
@@ -51,8 +51,8 @@ DISPLAY_CATEGORIES_ON_MENU=False
 
 ARTICLEDIR='posts'
 PAGEDIR='pages'
-PAGE_EXCLUDES=('othermd',)
-ARTICLE_EXCLUDES=('pages','othermd',)
+PAGE_EXCLUDES=['othermd']
+ARTICLE_EXCLUDES=['pages','othermd']
 #categiries: homework, lecture, lab, project
 
 start = SITEURL
@@ -65,18 +65,19 @@ def do_menuitems(start):
           ('Contact', "%s/contact.html" % start ),
           ]
     return menuitems
+MENUITEMS = do_menuitems(start)
 
 INTERLINKS = {
     'wikipedia_en': 'http://en.wikipedia.org/wiki/',
     'wikipedia_es': 'http://es.wikipedia.org/wiki/',
     'ddg': 'https://duckduckgo.com/?q='
 }
-PLUGIN_PATH = '.support/plugins'
-PLUGINS = ['interlinks', 'liquid_tags.img', 'liquid_tags.video',
+PLUGIN_PATHS = ['support/plugins']
+PLUGINS = ['liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.youtube', 'liquid_tags.notebook', 'liquid_tags.include_code',
            'liquid_tags.include_md']
 
-EXTRA_HEADER = open('./support/notebook_header.html').read().decode('utf-8')
+EXTRA_HEADER = open('support/notebook_header.html').read().decode('utf-8')
 
 STATIC_PATHS=['static', 'code', 'notebooks', 'files']
 
