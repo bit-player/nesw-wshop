@@ -1,3 +1,11 @@
+AUTHOR = u'Professor'
+SITENAME = u'Class'
+
+FULL_NAME="Professori Pavlos"
+FULL_SITE="The Little Class of Horrors"
+CLASS_NUMBER="ac297r"
+
+
 # Blogroll
 LINKS =  (('Piazza', 'https://piazza.com/harvard/spring2014/am207/home'),
           ('Videos', 'http://cm.dce.harvard.edu/2014/02/24104/publicationListing.shtml'),

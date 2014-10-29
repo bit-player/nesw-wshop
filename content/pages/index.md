@@ -2,11 +2,7 @@ Title: index
 Author: Pavlos Protopapas
 Template: index
 
-<div class="jumbotron">
-  <h1>AM207/APMA E-207</h1>
-   <p>Advanced Scientific Computing: Stochastic Optimization Methods. Monte Carlo Methods for Inference and Data Analysis</p>
-<br> Pavlos Protopapas </br>
-</div>
+
 <div class="row">
     <div class="col-lg-4">
       <h3>lectures</h3>

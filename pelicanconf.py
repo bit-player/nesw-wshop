@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 from sitestuff import *
 
-AUTHOR = u'Professor'
-SITENAME = u'Class'
+
+
 SITEURL = ''
 
 PATH = 'content'
@@ -21,7 +21,7 @@ TRANSLATION_FEED_ATOM = None
 
 #specific
 THEME = 'support/themes/modpbs3'
-BOOTSTRAP_THEME = 'flatly'
+BOOTSTRAP_THEME = 'sandstone'
 TWITTER_USERNAME="Author"
 
 
