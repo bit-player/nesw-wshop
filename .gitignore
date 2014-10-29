@@ -54,3 +54,4 @@ docs/_build/
 target/
 gh-pages/
 _nb_header.html
+cache/
