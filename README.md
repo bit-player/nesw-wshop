@@ -20,7 +20,13 @@ At the top level directory, to bring in modules, etc in support:
 export PYTHONPATH=`pwd`
 ```
 
-make your edits, see files in pages and posts.
+make your edits:
+
+* do the ipython notebooks and a md file in which a notebook is embedded in Lectures/Homeworks/etc (see Homework folder for an example)
+* a makefile copies both the md file and the ipython notebook from there to the content folder and its subfolders posts and notebooks
+* the main concept is bloggy, so that you can run a class over the semester
+* if you need non bloggy pages look and edit them in content/pages. The index file and other files like syllabus/about/contact/schedule are all there
+* all the navigation is done by MENUITEMS in pelicanconf.py. The look of index page is controlled by stuff in sitestuff.py and index.md in pages.
 
 you may need to edit the makefile for flowing images and other resources.
 
