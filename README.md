@@ -3,8 +3,10 @@ classtmpl
 
 A template to create class websites using pelican, on github.
 
+```
 pip install pelican==3.4
 pip install markdown==2.4
+```
 
 files to edit:
 
@@ -12,7 +14,8 @@ files to edit:
 * publishconf.py
 * sitestuff.py
 
-export PYTHONPATH=`pwd`
+At the top level directory, to bring in modules, etc in support:
+`export PYTHONPATH=`pwd``
 
 make your edits, see files in pages and posts.
 
