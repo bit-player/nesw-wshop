@@ -15,7 +15,10 @@ files to edit:
 * sitestuff.py
 
 At the top level directory, to bring in modules, etc in support:
-`export PYTHONPATH=`pwd``
+
+```
+export PYTHONPATH=`pwd`
+```
 
 make your edits, see files in pages and posts.
 
