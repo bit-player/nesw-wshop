@@ -1,8 +1,8 @@
 AUTHOR = u'Professor'
-SITENAME = u'Class'
+SITENAME = u'Home'
 
 FULL_NAME="April 18th 2015"
-FULL_SITE="The Little Class of Horrors"
+FULL_SITE="Telling Science Stories with Code and Data"
 CLASS_NUMBER="NESW"
 
 
