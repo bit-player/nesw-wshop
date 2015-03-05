@@ -1,19 +1,19 @@
 AUTHOR = u'Professor'
 SITENAME = u'Class'
 
-FULL_NAME="Professori Pavlos"
+FULL_NAME="April 18th 2015"
 FULL_SITE="The Little Class of Horrors"
-CLASS_NUMBER="ac297r"
+CLASS_NUMBER="NESW"
 
 
 # Blogroll
-LINKS =  (('Piazza', 'https://piazza.com/harvard/spring2014/am207/home'),
-          ('Videos', 'http://cm.dce.harvard.edu/2014/02/24104/publicationListing.shtml'),
-          ('ISite', 'http://isites.harvard.edu/icb/icb.do?keyword=k102129&login=yes'),)
+LINKS =  (('NESW', 'http://neswonline.com/'),
+          ('Figshare', 'http://figshare.com'),
+          ('Plot.ly', 'https://plot.ly/'),)
 
 OTHERLINKS = (('Numpy', 'http://docs.scipy.org/doc/numpy/reference/'),
           ('Scipy', 'http://docs.scipy.org/doc/scipy/reference/'),
           ('Pandas', 'http://pandas.pydata.org/pandas-docs/dev/'),
           ('Matplotlib', 'http://matplotlib.org/api/index.html'),
-          ('PyMC3', 'https://github.com/pymc-devs/pymc'),
-          ('IACS', 'http://iacs.seas.harvard.edu'),)
+          ('Seaborn', 'http://stanford.edu/~mwaskom/software/seaborn/'),
+          ('d3', 'http://d3js.org/'),)

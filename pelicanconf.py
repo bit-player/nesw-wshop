@@ -21,7 +21,7 @@ TRANSLATION_FEED_ATOM = None
 
 #specific
 THEME = 'support/themes/modpbs3'
-BOOTSTRAP_THEME = 'sandstone'
+BOOTSTRAP_THEME = 'darkly'
 TWITTER_USERNAME="Author"
 
 
@@ -49,9 +49,9 @@ ARTICLE_EXCLUDES=['pages','othermd']
 start = SITEURL
 def do_menuitems(start):
     menuitems = [
+          ('Workshop', "%s/workshop.html" % start ),
           ('Schedule', "%s/schedule.html" % start ),
-          ('Syllabus', "%s/syllabus.html" % start ),
-          ('Policies', "%s/policies.html" % start ),
+          ('Participant Work', "%s/participants.html" % start ),
           ('Resources', "%s/resources.html" % start ),
           ('Contact', "%s/contact.html" % start ),
           ]
