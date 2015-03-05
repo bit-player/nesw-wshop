@@ -8,6 +8,8 @@ pip install pelican==3.4
 pip install markdown==2.4
 ```
 
+Do the above. Use Anaconda Python and set path accordingly. Dont edit the below.
+
 files to edit:
 
 * pelicanconf.py
@@ -22,19 +24,16 @@ export PYTHONPATH=`pwd`
 
 make your edits:
 
-* do the ipython notebooks and a md file in which a notebook is embedded in Lectures/Homeworks/etc (see Homework folder for an example)
+* do the ipython notebooks and a md file in which a notebook is embedded in Notebooks 
 * a makefile copies both the md file and the ipython notebook from there to the content folder and its subfolders posts and notebooks
-* the main concept is bloggy, so that you can run a class over the semester
+* the main concept is bloggy, so that you can run a class/whop over time
 * if you need non bloggy pages look and edit them in content/pages. The index file and other files like syllabus/about/contact/schedule are all there
 * all the navigation is done by MENUITEMS in pelicanconf.py. The look of index page is controlled by stuff in sitestuff.py and index.md in pages.
 
 you may need to edit the makefile for flowing images and other resources.
 
 ```
-make homework 
-make labs
-make lectures
-make other
+make Notebooks
 
 git add .
 git commit -m "commit message" -a
