@@ -1,5 +1,5 @@
 Title: Schedule
-Author: Pavlos Protopapas
+Author: Rahul Dave
 
 #### General Schedule
 

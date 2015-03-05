@@ -1,5 +1,5 @@
 Title: Resources
-Author: Pavlos Protopapas
+Author: Rahul Dave
 
 #### Textbooks
 

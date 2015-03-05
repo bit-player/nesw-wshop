@@ -1,4 +1,4 @@
-AUTHOR = u'Professor'
+AUTHOR = u'Rahul Dave'
 SITENAME = u'Home'
 
 FULL_NAME="April 18th 2015"

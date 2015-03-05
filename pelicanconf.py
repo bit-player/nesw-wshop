@@ -21,7 +21,7 @@ TRANSLATION_FEED_ATOM = None
 
 #specific
 THEME = 'support/themes/modpbs3'
-BOOTSTRAP_THEME = 'superhero'
+BOOTSTRAP_THEME = 'cyborg'
 TWITTER_USERNAME="Author"
 
 

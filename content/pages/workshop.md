@@ -1,5 +1,5 @@
-Title: Syllabus
-Author: Pavlos Protopapas
+Title: Workshop
+Author: Rahul Dave
 
 
 ### Course Grade
