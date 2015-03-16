@@ -51,7 +51,7 @@ def do_menuitems(start):
     menuitems = [
           ('Workshop', "%s/workshop.html" % start ),
           ('Schedule', "%s/schedule.html" % start ),
-          ('Participant Work', "%s/participants.html" % start ),
+          ('Participant Work', "http://salty-wave-5013.herokuapp.com/"),
           ('Resources', "%s/resources.html" % start ),
           ('Contact', "%s/contact.html" % start ),
           ]
